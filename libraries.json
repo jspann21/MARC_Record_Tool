@@ -1,0 +1,137 @@
+[
+    {
+        "name": "LOC",
+        "isbn_url": "https://catalog.loc.gov/vwebv/search?searchArg1={isbn}+&argType1=all&searchCode1=KNUM&searchType=2&combine2=and&searchArg2=&argType2=all&searchCode2=GKEY&combine3=and&searchArg3=&argType3=all&searchCode3=GKEY&year=1524-2024&fromYear=&toYear=&location=all&place=all&type=all&language=all&recCount=25",
+        "title_author_url": "https://catalog.loc.gov/vwebv/search?searchArg1={title}&argType1=all&searchCode1=KTIL&searchType=2&combine2=and&searchArg2={author}&argType2=all&searchCode2=KNAM&combine3=and&searchArg3=&argType3=all&searchCode3=GKEY&year=1524-2024&fromYear=&toYear=&location=all&place=all&type=all&language=all&recCount=25"
+    },
+    {
+        "name": "RPTS Library",
+        "isbn_url": "https://catalog.rptslibrary.org/cgi-bin/koha/opac-search.pl?idx=kw&q={isbn}",
+        "title_author_url": "https://catalog.rptslibrary.org/cgi-bin/koha/opac-search.pl?advsearch=1&idx=ti&q={title}&op=AND&idx=au%2Cwrdl&q={author}&do=Search&sort_by=relevance"
+    },
+    {
+        "name": "Eastern Cluster",
+        "isbn_url": "https://catalog.easterncluster.org/cgi-bin/koha/opac-search.pl?idx=kw&q={isbn}",
+        "title_author_url": "https://catalog.easterncluster.org/cgi-bin/koha/opac-search.pl?advsearch=1&idx=ti&q={title}&idx=au%2Cwrdl&q={author}&weight_search=1&do=Search&sort_by=relevance"
+    },
+    {
+        "name": "VL",
+        "isbn_url": "http://vlibrary.site/cgi-bin/koha/opac-search.pl?idx=kw&q={isbn}",
+        "title_author_url": "http://vlibrary.site/cgi-bin/koha/opac-search.pl?advsearch=1&idx=ti&q={title}&idx=au%2Cwrdl&q={author}&weight_search=1&do=Search&sort_by=relevance"
+    },
+    {
+        "name": "Thomas More",
+        "isbn_url": "https://thomasmore.bywatersolutions.com/cgi-bin/koha/opac-search.pl?idx=kw&q={isbn}",
+        "title_author_url": "https://thomasmore.bywatersolutions.com/cgi-bin/koha/opac-search.pl?advsearch=1&idx=ti&q={title}&op=AND&idx=au%2Cwrdl&q={author}&do=Search&sort_by=relevance"
+    },
+    {
+        "name": "Schreiner",
+        "isbn_url": "https://schreiner.bywatersolutions.com/cgi-bin/koha/opac-search.pl?idx=kw&q={isbn}",
+        "title_author_url": "https://schreiner.bywatersolutions.com/cgi-bin/koha/opac-search.pl?advsearch=1&idx=ti&q={title}&op=AND&idx=au%2Cwrdl&q={author}&do=Search&sort_by=relevance"
+    },
+    {
+        "name": "UNC",
+        "isbn_url": "https://catalog.lib.unc.edu/?utf8=%E2%9C%93&search_field=all_fields&q={isbn}",
+        "title_author_url": "https://catalog.lib.unc.edu/?utf8=%E2%9C%93&option=catalog&op=must&clause%5B0%5D%5Bfield%5D=all_fields&clause%5B0%5D%5Bquery%5D=&clause%5B1%5D%5Bfield%5D=title&clause%5B1%5D%5Bquery%5D={title}&clause%5B2%5D%5Bfield%5D=author&clause%5B2%5D%5Bquery%5D={author}&clause%5B3%5D%5Bfield%5D=subject&clause%5B3%5D%5Bquery%5D=&clause%5B4%5D%5Bfield%5D=publisher&clause%5B4%5D%5Bquery%5D=&clause%5B5%5D%5Bfield%5D=series_statement&clause%5B5%5D%5Bquery%5D=&clause%5B6%5D%5Bfield%5D=isbn_issn&clause%5B6%5D%5Bquery%5D=&clause%5B7%5D%5Bfield%5D=call_number&clause%5B7%5D%5Bquery%5D=&range%5Bpublication_year_isort%5D%5Bbegin%5D=&range%5Bpublication_year_isort%5D%5Bend%5D=&sort=score+desc%2C+publication_year_isort+desc%2C+title_sort_ssort_single+asc&commit=Search"
+    },
+    {
+        "name": "TCD",
+        "isbn_url": "https://library.catalogue.tcd.ie/search~S9/i{isbn}",
+        "title_author_url": "https://library.catalogue.tcd.ie/search~S9/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "Indiana Wesleyan",
+        "isbn_url": "https://oak.indwes.edu/search/?searchtype=i&searcharg={isbn}+&SORT=D",
+        "title_author_url": "https://oak.indwes.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "Cedarville",
+        "isbn_url": "https://library.cedarville.edu/search/?searchtype=i&searcharg={isbn}",
+        "title_author_url": "https://library.cedarville.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "OPAL",
+        "isbn_url": "https://cat.opal-libraries.org/search/i{isbn}",
+        "title_author_url": "https://cat.opal-libraries.org/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "St. Mary Seminary",
+        "isbn_url": "https://catalog.stmarysem.edu/search/i{isbn}",
+        "title_author_url": "https://catalog.stmarysem.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "VTS",
+        "isbn_url": "https://librarycatalog.vts.edu/search/?searchtype=X&SORT=D&searcharg={isbn}",
+        "title_author_url": "https://librarycatalog.vts.edu/search~S1/X?SEARCH=t:({title})%20and%20a:({author})&searchscope=1&SORT=D"
+    },
+    {
+        "name": "Glasgow",
+        "isbn_url": "https://eleanor.lib.gla.ac.uk/search~S0?/i{isbn}",
+        "title_author_url": "https://eleanor.lib.gla.ac.uk/search~S0/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "UNT",
+        "isbn_url": "https://iii.library.unt.edu/search/X?SEARCH={isbn}",
+        "title_author_url": "https://iii.library.unt.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "UChicago",
+        "isbn_url": "https://catalog.lib.uchicago.edu/vufind/Search/Results?lookfor={isbn}&type=AllFields&limit=60",
+        "title_author_url": "https://catalog.lib.uchicago.edu/vufind/Search/Results?join=AND&lookfor0%5B%5D={title}&type0%5B%5D=Title&lookfor0%5B%5D={author}&type0%5B%5D=Author&bool0%5B%5D=AND&daterange%5B%5D=publishDate&publishDatefrom=&publishDateto="
+    },
+    {
+        "name": "Princeton",
+        "isbn_url": "https://catalog.ptsem.edu/search/i?SEARCH={isbn}&sortdropdown=-&searchscope=1",
+        "title_author_url": "https://catalog.ptsem.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "SWAU",
+        "isbn_url": "https://chanshun.swau.edu/cgi-bin/koha/opac-search.pl?q={isbn}",
+        "title_author_url": "https://chanshun.swau.edu/cgi-bin/koha/opac-search.pl?advsearch=1&idx=ti&q={title}&op=AND&idx=au%2Cwrdl&q={author}&do=Search&sort_by=relevance"
+    },
+    {
+        "name": "MOBIUS",
+        "isbn_url": "https://bridges.searchmobius.org/search~S11?/i{isbn}",
+        "title_author_url": "https://bridges.searchmobius.org/search~S11/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "Capital",
+        "isbn_url": "https://charli.capital.edu/search/i{isbn}",
+        "title_author_url": "https://charli.capital.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "Ohio Christian",
+        "isbn_url": "https://library.ohiochristian.edu/search/i{isbn}",
+        "title_author_url": "https://library.ohiochristian.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "Yale",
+        "isbn_url": "https://orbis.library.yale.edu/vwebv/search?searchArg={isbn}&searchCode=GKEY%5E*&searchType=0&recCount=50",
+        "title_author_url": "https://orbis.library.yale.edu/vwebv/search?searchArg1={title}&argType1=all&searchCode1=TKEY&combine2=and&searchArg2={author}&argType2=all&searchCode2=NKEY&combine3=and&searchArg3=&argType3=all&searchCode3=GKEY&year=2023-2024&fromYear=&toYear=&location=all&place=all&type=all&status=all&medium=all&language=all&content=all&media=all&carrier=all&recCount=50&searchType=2&page.search.search.button=Search"
+    },
+    {
+        "name": "Columbia",
+        "isbn_url": "https://clio.columbia.edu/catalog?q={isbn}&search_field=isbn",
+        "title_author_url": "https://clio.columbia.edu/catalog?utf8=%E2%9C%93&advanced_operator=AND&commit=Search&search_field=advanced&adv%5B1%5D%5Bfield%5D=title&adv%5B1%5D%5Bvalue%5D={title}&adv%5B2%5D%5Bfield%5D=author&adv%5B2%5D%5Bvalue%5D={author}&adv%5B3%5D%5Bfield%5D=all_fields&adv%5B3%5D%5Bvalue%5D=&adv%5B4%5D%5Bfield%5D=all_fields&adv%5B4%5D%5Bvalue%5D=&adv%5B5%5D%5Bfield%5D=all_fields&adv%5B5%5D%5Bvalue%5D="
+    },
+    {
+        "name": "SCAD",
+        "isbn_url": "https://library.scad.edu/search~S1?/i{isbn}",
+        "title_author_url": "https://library.scad.edu/search~S1/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "PUC",
+        "isbn_url": "https://catalog.puc.edu/search/X?SEARCH=+{isbn}&search=Search&searchscope=1",
+        "title_author_url": "https://catalog.puc.edu/search/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "La Salle",
+        "isbn_url": "https://connelly.lasalle.edu/search~S1?/i{isbn}",
+        "title_author_url": "https://connelly.lasalle.edu/search~S1/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    },
+    {
+        "name": "Marshall",
+        "isbn_url": "https://mulibiiidb.marshall.edu/search~S1/i{isbn}",
+        "title_author_url": "https://mulibiiidb.marshall.edu/search~S1/X?SEARCH=t:({title})+and+a:({author})&SORT=D"
+    }
+]
